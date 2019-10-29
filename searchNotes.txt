@@ -1,0 +1,8 @@
+Advanced Driving Algorithm:
+
+1: The robot starts in a random square on the grid
+2: It recognizes the nearnest squares to itself (potentially an initial turn is done as well explained later)
+3: If possible, the robot drives straight else left else right assuming that all adjacent spaces are undiscovered
+4: While driving the robot keeps track of the spaces that it has physically passed over as well as the undiscovered parts
+5: If the robot surrounds itself with undiscovered points, it initiates an A* algorithm to find the nearnest undiscovered part
+6: The robot then repeats breath first search.
